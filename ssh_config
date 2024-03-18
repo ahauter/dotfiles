@@ -1,0 +1,4 @@
+Host github.com-personal
+	HostName github.com
+	User hautera@me.com
+	IdentityFile ~/.ssh/github.com-personal
