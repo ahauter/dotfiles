@@ -122,3 +122,24 @@ bind -x '"\ej":"tmux new-session $(find $HOME/Repositories -maxdepth 2 -mindepth
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+#Oh my bash config
+#
+source "$OSH"/oh-my-bash.sh
+export OSH='/home/austin/.oh-my-bash'
+OSH_THEME="font"
+OMB_USE_SUDO=true
+completions=(
+  git
+  composer
+  ssh
+)
+
+aliases=(
+  general
+)
+
+plugins=(
+  git
+  bashmarks
+)
