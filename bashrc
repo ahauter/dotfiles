@@ -127,12 +127,15 @@ export NVM_DIR="$HOME/.nvm"
 #
 source "$OSH"/oh-my-bash.sh
 export OSH='/home/austin/.oh-my-bash'
-OSH_THEME="font"
+OSH_THEME="purity"
 OMB_USE_SUDO=true
 completions=(
   git
   composer
   ssh
+  npm
+  go
+  pip3
 )
 
 aliases=(
@@ -142,4 +145,6 @@ aliases=(
 plugins=(
   git
   bashmarks
+  npm
+  golang
 )

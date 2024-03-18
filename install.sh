@@ -9,3 +9,6 @@ ln -srf ./fonts "$HOME/.fonts"
 # BASH :)
 ln -srf ./bashrc "$HOME/.bashrc"
 ln -srf ./startCodeSession.sh "$HOME/.startCodeSession"
+#Oh My Bash
+rm -rf ~/.oh-my-bash
+ln -srf ./oh-my-bash "$HOME/.oh-my-bash"
