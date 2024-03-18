@@ -6,3 +6,6 @@ rm -rf ~/.config/i3
 ln -srf ./i3 "$HOME/.config/i3"
 rm -rf ~/.fonts
 ln -srf ./fonts "$HOME/.fonts"
+# BASH :)
+ln -srf ./bashrc "$HOME/.bashrc"
+ln -srf ./startCodeSession.sh "$HOME/.startCodeSession"
