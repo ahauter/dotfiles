@@ -2,3 +2,8 @@ Host github.com-personal
 	HostName github.com
 	User hautera@me.com
 	IdentityFile ~/.ssh/github.com-personal
+  
+Host github.com-work
+	HostName github.com
+	User austinh@gritsoftwaresystems.com
+	IdentityFile ~/.ssh/github.com-work
