@@ -122,9 +122,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 #Oh my bash config
-#
-export OSH='/home/austin/.oh-my-bash'
-source "$OSH"/oh-my-bash.sh
+export OSH="$HOME/.oh-my-bash"
 OSH_THEME="purity"
 OMB_USE_SUDO=true
 completions=(
@@ -145,3 +143,4 @@ plugins=(
   npm
   golang
 )
+source "$OSH/oh-my-bash.sh"
