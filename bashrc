@@ -12,9 +12,7 @@ esac
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
 
-# append to the history file, don't overwrite it
-shopt -s histappend
-
+# append to the history file, don't overwrite it shopt -s histappend
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
 HISTFILESIZE=2000
@@ -125,8 +123,8 @@ export NVM_DIR="$HOME/.nvm"
 
 #Oh my bash config
 #
-source "$OSH"/oh-my-bash.sh
 export OSH='/home/austin/.oh-my-bash'
+source "$OSH"/oh-my-bash.sh
 OSH_THEME="purity"
 OMB_USE_SUDO=true
 completions=(
@@ -138,8 +136,7 @@ completions=(
   pip3
 )
 
-aliases=(
-  general
+aliases=( general
 )
 
 plugins=(
