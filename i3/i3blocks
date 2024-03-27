@@ -4,9 +4,7 @@
 # The man page is also hosted at http://vivien.github.io/i3blocks
 #
 # List of valid properties:
-#
-# align
-# color
+# align color
 # command
 # full_text
 # instance
@@ -100,9 +98,8 @@ interval=10
 #
 # The battery instance defaults to 0.
 [battery]
-label=BAT
-#label=⚡
 interval=30
+command=$HOME/.batteryLevel
 
 # Date Time
 #

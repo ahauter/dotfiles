@@ -147,8 +147,8 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 assign [class="firefox"] $ws2
 assign [class="Gnome-terminal"] $ws6
-assign [class="discord"] $ws4
-assign [class="teams-for-linux"] $ws4
+assign [class="discord"] $ws3
+assign [class="teams-for-linux"] $ws3
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
