@@ -18,7 +18,7 @@ then
 elif [[ $RAW_PERCENT -gt 50 ]];
 then
   BAT_ICON=$BAT_THREE_QUARTERS
-  COLOR=$GREEN
+  COLOR=$YELLOW
 elif [[ $RAW_PERCENT -gt 25 ]];
 then
   BAT_ICON=$BAT_HALF
