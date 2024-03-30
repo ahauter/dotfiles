@@ -1,5 +1,10 @@
 #!/bin/bash
 BAT_NAME=$(upower -e | grep BAT)
+#Don't output battery status if there's no battery!
+if [[ "$BAT_NAME" = "" ]];
+then
+  exit 0
+fi
 BAT_STATE=$(upower -i $BAT_NAME | grep state | awk '{print $2}')
 BAT_PERCENTAGE=$(upower -i $BAT_NAME | grep percentage | awk '{print $2}')
 RED='#FF0000'
