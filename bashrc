@@ -115,6 +115,7 @@ if ! shopt -oq posix; then
 fi
 . "$HOME/.cargo/env"
 export PATH=$PATH:/usr/local/go/bin
+export PATH="$PATH:$HOME/go/bin"
 bind -x '"\ej":"tmux new-session $(find $HOME/Repositories -maxdepth 2 -mindepth 1 | fzf --reverse | $HOME/.startCodeSession)"'
 
 export NVM_DIR="$HOME/.nvm"
