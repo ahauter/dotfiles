@@ -1,3 +1,4 @@
+mkdir ~/.ssh
 rm -rf ~/.ssh/config
 ln -srf ./ssh_config ~/.ssh/config
 rm -rf ~/.config/nvim
