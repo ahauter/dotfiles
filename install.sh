@@ -14,3 +14,4 @@ ln -srf ./batteryLevel.sh "$HOME/.batteryLevel"
 #Oh My Bash
 rm -rf ~/.oh-my-bash
 ln -srf ./oh-my-bash "$HOME/.oh-my-bash"
+
