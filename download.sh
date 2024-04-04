@@ -8,6 +8,7 @@ sudo apt-get install feh
 sudo apt install fzf
 sudo apt install curl
 sudo apt install tmux
+sudo apt install picom
 
 echo "Installing Neovim"
 sudo add-apt-repository ppa:neovim-ppa/unstable
