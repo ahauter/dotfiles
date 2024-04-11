@@ -84,9 +84,10 @@ interval=5
 #
 # The script may be called with -w and -c switches to specify thresholds,
 # see the script for details.
-[cpu_usage]
+[CPU]
 label=CPU
-interval=10
+command=$HOME/.cpu_usage
+interval=20
 min_width=CPU 100.00%
 #separator=false
 
@@ -106,6 +107,7 @@ command=$HOME/.batteryLevel
 [time]
 command=date '+%m-%d-%Y %H:%M'
 interval=5
+
 
 # Generic media player support
 #

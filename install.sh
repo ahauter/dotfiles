@@ -12,6 +12,7 @@ ln -srf ./fonts "$HOME/.fonts"
 ln -srf ./bashrc "$HOME/.bashrc"
 ln -srf ./startCodeSession.sh "$HOME/.startCodeSession"
 ln -srf ./batteryLevel.sh "$HOME/.batteryLevel"
+ln -srf ./cpu_usage.sh "$HOME/.cpu_usage"
 
 #Oh My Bash
 rm -rf ~/.oh-my-bash
