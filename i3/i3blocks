@@ -87,13 +87,8 @@ interval=5
 [CPU]
 label=CPU
 command=$HOME/.cpu_usage
-interval=20
-min_width=CPU 100.00%
-#separator=false
-
-[load_average]
-label=LOAD
 interval=10
+min_width=CPU 100.00%
 
 # Battery indicator
 #
