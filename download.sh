@@ -7,6 +7,7 @@ sudo apt-get install i3blocks
 sudo apt-get install feh
 sudo apt install fzf
 sudo apt install curl
+sudo apt install ripgrep
 sudo apt install tmux
 sudo apt install picom
 
