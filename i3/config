@@ -154,6 +154,8 @@ assign [class="insomnia"] $ws7
 assign [class="Insomnia"] $ws7
 assign [class="postman"] $ws7
 assign [class="Postman"] $ws7
+assign [class="chromium"] $ws7
+assign [class="Chromium"] $ws7
 
 
 # reload the configuration file
