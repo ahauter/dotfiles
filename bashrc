@@ -119,6 +119,8 @@ export PATH="$PATH:$HOME/go/bin"
 export PATH="$PATH:$HOME/.dotnet"
 bind -x '"\ej":"tmux new-session $(find $HOME/Repositories -maxdepth 2 -mindepth 1 | fzf --reverse | $HOME/.startCodeSession)"'
 
+#android studio path
+export PATH="/usr/local/android-studio/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
