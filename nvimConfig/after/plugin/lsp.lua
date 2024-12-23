@@ -5,7 +5,8 @@ lsp.ensure_installed({
   'eslint',
   'pylsp',
   'gopls',
-  'lua_ls'
+  'lua_ls',
+  'xmlformatter'
 })
 local format_opts = {
   format_opts = {
