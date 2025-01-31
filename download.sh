@@ -25,15 +25,6 @@ sudo apt install build-essential
 
 echo "Install Rust"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-echo "Install Golang"
-curl -O -L https://go.dev/dl/go1.22.1.src.tar.gz 
-rm -rf /usr/local/go && tar -C $HOME -xzf go1.22.1.linux-amd64.tar.gz
-export $PATH=$PATH:"$HOME/go"
-go install https://github.com/cosmtrek/air@latest
-
-echo "Install NVM/Nodejs :("
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-nvm install node
 
 #install azure functions :/
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
@@ -46,6 +37,9 @@ echo "Install C#"
 wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh
 chmod +x ./dotnet-install.sh
 ./dotnet-install.sh --version latest
+
+echo "Install golang"
+sudo apt install golang-go
 
 echo "Install docker" 
 sudo apt-get install ca-certificates curl
