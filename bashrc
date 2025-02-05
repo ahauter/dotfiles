@@ -117,6 +117,7 @@ fi
 export PATH=$PATH:/usr/local/go/bin
 export PATH="$PATH:$HOME/go/bin"
 export PATH="$PATH:$HOME/.dotnet"
+export PATH="$PATH:$HOME/Repositories/Personal/llama.cpp/build/bin"
 bind -x '"\ej":"tmux new-session $(find $HOME/Repositories -maxdepth 2 -mindepth 1 | fzf --reverse | $HOME/.startCodeSession)"'
 
 #android studio path
@@ -148,3 +149,6 @@ plugins=(
   golang
 )
 source "$OSH/oh-my-bash.sh"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/austin/.lmstudio/bin"
