@@ -117,6 +117,7 @@ fi
 export PATH=$PATH:/usr/local/go/bin
 export PATH="$PATH:$HOME/go/bin"
 export PATH="$PATH:$HOME/.dotnet"
+export PATH="$PATH:$HOME/Repositories/Personal/astrolabe/lsp"
 export PATH="$PATH:$HOME/Repositories/Personal/llama.cpp/build/bin"
 bind -x '"\ej":"tmux new-session $(find $HOME/Repositories -maxdepth 2 -mindepth 1 | fzf --reverse | $HOME/.startCodeSession)"'
 
