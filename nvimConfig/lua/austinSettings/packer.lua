@@ -7,6 +7,15 @@ return require('packer').startup(function(use)
   --   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
   use {
+    'gelguy/wilder.nvim',
+    config = function()
+      -- config goes here
+      require("wilder").setup({
+        modes = { ":", "/", "?" }
+      })
+    end,
+  }
+  use {
     'nvim-telescope/telescope.nvim', tag = '0.1.2',
     -- or                            , branch = '0.1.x',
     requires = { {
@@ -39,19 +48,19 @@ return require('packer').startup(function(use)
     branch = 'v2.x',
     requires = {
       --LSP Support
-      { 'neovim/nvim-lspconfig' },       -- Required
-      {                                  -- Optional
+      { 'neovim/nvim-lspconfig' }, -- Required
+      {                            -- Optional
         'williamboman/mason.nvim',
         run = function()
           pcall(vim.cmd, 'MasonUpdate')
         end,
       },
-      { 'williamboman/mason-lspconfig.nvim' },       -- Optional
+      { 'williamboman/mason-lspconfig.nvim' }, -- Optional
 
       -- Autocompletion
-      { 'hrsh7th/nvim-cmp' },           -- Required
-      { 'hrsh7th/cmp-nvim-lsp' },       -- Required
-      { 'L3MON4D3/LuaSnip' },           -- Required
+      { 'hrsh7th/nvim-cmp' },     -- Required
+      { 'hrsh7th/cmp-nvim-lsp' }, -- Required
+      { 'L3MON4D3/LuaSnip' },     -- Required
     }
   }
   use 'github/copilot.vim'
