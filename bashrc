@@ -131,6 +131,7 @@ export NVM_DIR="$HOME/.nvm"
 
 #Oh my bash config
 export OSH="$HOME/.oh-my-bash"
+OMB_DEFAULT_ALIASES=disable
 OSH_THEME="purity"
 OMB_USE_SUDO=true
 completions=(
@@ -142,11 +143,7 @@ completions=(
   pip3
 )
 
-aliases=( general
-)
-
 plugins=(
-  git
   bashmarks
   npm
   golang
