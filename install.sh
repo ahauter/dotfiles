@@ -12,8 +12,10 @@ ln -srf ./fonts "$HOME/.fonts"
 rm -rf ~/.oh-my-bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 rm -rf "~/.bashrc"
+rm -rf "~/.bash_aliases"
 
 # BASH :)
+ln -srf ./bash_aliases "$HOME/.bash_aliases"
 ln -srf ./bashrc "$HOME/.bashrc"
 ln -srf ./startCodeSession.sh "$HOME/.startCodeSession"
 ln -srf ./batteryLevel.sh "$HOME/.batteryLevel"
