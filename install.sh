@@ -11,8 +11,8 @@ ln -srf ./fonts "$HOME/.fonts"
 #Oh My Bash
 rm -rf ~/.oh-my-bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
-rm -rf "~/.bashrc"
-rm -rf "~/.bash_aliases"
+rm -rf "$HOME/.bashrc"
+rm -rf "$HOME/.bash_aliases"
 
 # BASH :)
 ln -srf ./bash_aliases "$HOME/.bash_aliases"
