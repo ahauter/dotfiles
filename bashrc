@@ -149,6 +149,8 @@ plugins=(
   golang
 )
 source "$OSH/oh-my-bash.sh"
+# Set default browser to firefox
+export BROWSER="/usr/bin/firefox"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/austin/.lmstudio/bin"
