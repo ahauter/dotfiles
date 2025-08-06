@@ -154,3 +154,8 @@ export BROWSER="/usr/bin/firefox"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/austin/.lmstudio/bin"
+
+# Add git default editor
+export VISUAL="nvim"
+export EDITOR="$VISUAL"
+export GIT_EDITOR="$VISUAL"
