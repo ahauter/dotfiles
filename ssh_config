@@ -7,3 +7,8 @@ Host github.com-work
 	HostName github.com
 	User austinh@gritsoftwaresystems.com
 	IdentityFile ~/.ssh/github.com-work
+  
+Host ssh.dev.azure.com
+	HostName ssh.dev.azure.com
+	User austin.hauter@qsc.com
+	IdentityFile ~/.ssh/id_ado
