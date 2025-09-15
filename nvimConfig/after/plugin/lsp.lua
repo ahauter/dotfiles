@@ -2,6 +2,7 @@ local lsp = require('lsp-zero')
 lsp.preset('recommended')
 lsp.ensure_installed({
   'tsserver',
+  'omnisharp',
   'eslint',
   'pylsp',
   'gopls',
@@ -19,6 +20,7 @@ local format_opts = {
     ['pylsp'] = { 'python' },
     ['tsserver'] = { 'javascript', 'typescript' },
     ['gopls'] = { 'go' },
+    ['omnisharp'] = {'c_sharp'},
     ['xmlformatter'] = { 'xml' }
   }
 }
