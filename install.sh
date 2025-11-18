@@ -21,6 +21,10 @@ ln -srf ./startCodeSession.sh "$HOME/.startCodeSession"
 ln -srf ./batteryLevel.sh "$HOME/.batteryLevel"
 ln -srf ./cpu_usage.sh "$HOME/.cpu_usage"
 
+# TMUX config
+rm -rf "$HOME/.tmux.conf"
+ln -srf ./tmux_config.conf "$HOME/.tmux.conf"
+
 #Vim wiki
 rm -rf ~/vimwiki
 ln -srf ~/Repositories/Personal/vimwiki ~/vimwiki
