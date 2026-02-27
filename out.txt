@@ -1,0 +1,106 @@
+2025/11/18 01:13:35.308   INFO [Astrolabe.server] reading from stdin, writing to stdout
+2025/11/18 01:13:55.098  DEBUG [lsp.commandhandler] Received Command
+2025/11/18 01:13:55.098  DEBUG [lsp.commandhandler] create_comment
+2025/11/18 01:13:55.098  DEBUG [lsp.commandhandler] [sshconfig Host ssh.dev.azure.com
+	HostName ssh.dev.azure.com
+	User austin.hauter@qsc.com
+	IdentityFile ~/.ssh/id_ado]
+2025/11/18 01:13:55.098  DEBUG [lsp.commandhandler:createComment] You are a technical writer documenting a codebase.
+You are tasked with writing header comments of specific functions.
+This would be a godoc, javadoc, jsdoc, docstring, etc depending on the language.
+Write a specific, detailed comment for the following code,
+include every detail you can find about parameters, return, and possible errors.
+This comment will be used as a header comment for developers to reference.
+You will be penalized if you write any code.
+You will be penalized if you write an imcomplete sentence.
+The file type is sshconfig.
+You MUST use the correct comment style for the filetype, otherwise the IDE's will not pick up the header comment.
+Host ssh.dev.azure.com
+	HostName ssh.dev.azure.com
+	User austin.hauter@qsc.com
+	IdentityFile ~/.ssh/id_ado
+2025/11/18 01:13:55.098  DEBUG [lsp.commandhandler:createComment] {"prompt":"You are a technical writer documenting a codebase.\nYou are tasked with writing header comments of specific functions.\nThis would be a godoc, javadoc, jsdoc, docstring, etc depending on the language.\nWrite a specific, detailed comment for the following code,\ninclude every detail you can find about parameters, return, and possible errors.\nThis comment will be used as a header comment for developers to reference.\nYou will be penalized if you write any code.\nYou will be penalized if you write an imcomplete sentence.\nThe file type is sshconfig.\nYou MUST use the correct comment style for the filetype, otherwise the IDE's will not pick up the header comment.\nHost ssh.dev.azure.com\n\tHostName ssh.dev.azure.com\n\tUser austin.hauter@qsc.com\n\tIdentityFile ~/.ssh/id_ado"}
+2025/11/18 01:14:00.931  DEBUG [lsp.commandhandler] Received Command
+2025/11/18 01:14:00.931  DEBUG [lsp.commandhandler] create_comment
+2025/11/18 01:14:00.931  DEBUG [lsp.commandhandler] [sshconfig Host ssh.dev.azure.com
+	HostName ssh.dev.azure.com
+	User austin.hauter@qsc.com
+	IdentityFile ~/.ssh/id_ado]
+2025/11/18 01:14:00.931  DEBUG [lsp.commandhandler:createComment] You are a technical writer documenting a codebase.
+You are tasked with writing header comments of specific functions.
+This would be a godoc, javadoc, jsdoc, docstring, etc depending on the language.
+Write a specific, detailed comment for the following code,
+include every detail you can find about parameters, return, and possible errors.
+This comment will be used as a header comment for developers to reference.
+You will be penalized if you write any code.
+You will be penalized if you write an imcomplete sentence.
+The file type is sshconfig.
+You MUST use the correct comment style for the filetype, otherwise the IDE's will not pick up the header comment.
+Host ssh.dev.azure.com
+	HostName ssh.dev.azure.com
+	User austin.hauter@qsc.com
+	IdentityFile ~/.ssh/id_ado
+2025/11/18 01:14:00.931  DEBUG [lsp.commandhandler:createComment] {"prompt":"You are a technical writer documenting a codebase.\nYou are tasked with writing header comments of specific functions.\nThis would be a godoc, javadoc, jsdoc, docstring, etc depending on the language.\nWrite a specific, detailed comment for the following code,\ninclude every detail you can find about parameters, return, and possible errors.\nThis comment will be used as a header comment for developers to reference.\nYou will be penalized if you write any code.\nYou will be penalized if you write an imcomplete sentence.\nThe file type is sshconfig.\nYou MUST use the correct comment style for the filetype, otherwise the IDE's will not pick up the header comment.\nHost ssh.dev.azure.com\n\tHostName ssh.dev.azure.com\n\tUser austin.hauter@qsc.com\n\tIdentityFile ~/.ssh/id_ado"}
+2025/11/18 01:14:04.171  DEBUG [lsp.commandhandler] Received Command
+2025/11/18 01:14:04.171  DEBUG [lsp.commandhandler] create_comment
+2025/11/18 01:14:04.171  DEBUG [lsp.commandhandler] [sshconfig Host ssh.dev.azure.com
+	HostName ssh.dev.azure.com
+	User austin.hauter@qsc.com
+	IdentityFile ~/.ssh/id_ado]
+2025/11/18 01:14:04.171  DEBUG [lsp.commandhandler:createComment] You are a technical writer documenting a codebase.
+You are tasked with writing header comments of specific functions.
+This would be a godoc, javadoc, jsdoc, docstring, etc depending on the language.
+Write a specific, detailed comment for the following code,
+include every detail you can find about parameters, return, and possible errors.
+This comment will be used as a header comment for developers to reference.
+You will be penalized if you write any code.
+You will be penalized if you write an imcomplete sentence.
+The file type is sshconfig.
+You MUST use the correct comment style for the filetype, otherwise the IDE's will not pick up the header comment.
+Host ssh.dev.azure.com
+	HostName ssh.dev.azure.com
+	User austin.hauter@qsc.com
+	IdentityFile ~/.ssh/id_ado
+2025/11/18 01:14:04.171  DEBUG [lsp.commandhandler:createComment] {"prompt":"You are a technical writer documenting a codebase.\nYou are tasked with writing header comments of specific functions.\nThis would be a godoc, javadoc, jsdoc, docstring, etc depending on the language.\nWrite a specific, detailed comment for the following code,\ninclude every detail you can find about parameters, return, and possible errors.\nThis comment will be used as a header comment for developers to reference.\nYou will be penalized if you write any code.\nYou will be penalized if you write an imcomplete sentence.\nThe file type is sshconfig.\nYou MUST use the correct comment style for the filetype, otherwise the IDE's will not pick up the header comment.\nHost ssh.dev.azure.com\n\tHostName ssh.dev.azure.com\n\tUser austin.hauter@qsc.com\n\tIdentityFile ~/.ssh/id_ado"}
+2025/11/18 01:14:06.311  DEBUG [lsp.commandhandler] Received Command
+2025/11/18 01:14:06.311  DEBUG [lsp.commandhandler] create_comment
+2025/11/18 01:14:06.311  DEBUG [lsp.commandhandler] [sshconfig Host ssh.dev.azure.com
+	HostName ssh.dev.azure.com
+	User austin.hauter@qsc.com
+	IdentityFile ~/.ssh/id_ado]
+2025/11/18 01:14:06.311  DEBUG [lsp.commandhandler:createComment] You are a technical writer documenting a codebase.
+You are tasked with writing header comments of specific functions.
+This would be a godoc, javadoc, jsdoc, docstring, etc depending on the language.
+Write a specific, detailed comment for the following code,
+include every detail you can find about parameters, return, and possible errors.
+This comment will be used as a header comment for developers to reference.
+You will be penalized if you write any code.
+You will be penalized if you write an imcomplete sentence.
+The file type is sshconfig.
+You MUST use the correct comment style for the filetype, otherwise the IDE's will not pick up the header comment.
+Host ssh.dev.azure.com
+	HostName ssh.dev.azure.com
+	User austin.hauter@qsc.com
+	IdentityFile ~/.ssh/id_ado
+2025/11/18 01:14:06.311  DEBUG [lsp.commandhandler:createComment] {"prompt":"You are a technical writer documenting a codebase.\nYou are tasked with writing header comments of specific functions.\nThis would be a godoc, javadoc, jsdoc, docstring, etc depending on the language.\nWrite a specific, detailed comment for the following code,\ninclude every detail you can find about parameters, return, and possible errors.\nThis comment will be used as a header comment for developers to reference.\nYou will be penalized if you write any code.\nYou will be penalized if you write an imcomplete sentence.\nThe file type is sshconfig.\nYou MUST use the correct comment style for the filetype, otherwise the IDE's will not pick up the header comment.\nHost ssh.dev.azure.com\n\tHostName ssh.dev.azure.com\n\tUser austin.hauter@qsc.com\n\tIdentityFile ~/.ssh/id_ado"}
+2025/11/18 01:14:16.303  DEBUG [lsp.commandhandler] Received Command
+2025/11/18 01:14:16.303  DEBUG [lsp.commandhandler] create_comment
+2025/11/18 01:14:16.303  DEBUG [lsp.commandhandler] [sshconfig Host ssh.dev.azure.com
+	HostName ssh.dev.azure.com
+	User austin.hauter@qsc.com
+	IdentityFile ~/.ssh/id_ado]
+2025/11/18 01:14:16.303  DEBUG [lsp.commandhandler:createComment] You are a technical writer documenting a codebase.
+You are tasked with writing header comments of specific functions.
+This would be a godoc, javadoc, jsdoc, docstring, etc depending on the language.
+Write a specific, detailed comment for the following code,
+include every detail you can find about parameters, return, and possible errors.
+This comment will be used as a header comment for developers to reference.
+You will be penalized if you write any code.
+You will be penalized if you write an imcomplete sentence.
+The file type is sshconfig.
+You MUST use the correct comment style for the filetype, otherwise the IDE's will not pick up the header comment.
+Host ssh.dev.azure.com
+	HostName ssh.dev.azure.com
+	User austin.hauter@qsc.com
+	IdentityFile ~/.ssh/id_ado
+2025/11/18 01:14:16.303  DEBUG [lsp.commandhandler:createComment] {"prompt":"You are a technical writer documenting a codebase.\nYou are tasked with writing header comments of specific functions.\nThis would be a godoc, javadoc, jsdoc, docstring, etc depending on the language.\nWrite a specific, detailed comment for the following code,\ninclude every detail you can find about parameters, return, and possible errors.\nThis comment will be used as a header comment for developers to reference.\nYou will be penalized if you write any code.\nYou will be penalized if you write an imcomplete sentence.\nThe file type is sshconfig.\nYou MUST use the correct comment style for the filetype, otherwise the IDE's will not pick up the header comment.\nHost ssh.dev.azure.com\n\tHostName ssh.dev.azure.com\n\tUser austin.hauter@qsc.com\n\tIdentityFile ~/.ssh/id_ado"}
