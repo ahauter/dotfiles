@@ -119,6 +119,7 @@ fi
 export PATH=$PATH:/usr/local/go/bin
 export PATH="$PATH:$HOME/go/bin"
 export PATH="$PATH:$HOME/.dotnet"
+export PATH="$PATH:$HOME/Repositories/Personal/terraform-provider-azure-b2c-ief"
 export PATH="$PATH:$HOME/Repositories/Personal/astrolabe/lsp"
 export PATH="$PATH:$HOME/Repositories/Personal/llama.cpp/build/bin"
 bind -x '"\ej":"tmux new-session $(find $HOME/Repositories -maxdepth 2 -mindepth 1 | fzf --reverse | $HOME/.startCodeSession)"'
@@ -154,8 +155,13 @@ export BROWSER="/usr/bin/firefox"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/austin/.lmstudio/bin"
+export PATH="$PATH:$HOME/.platformio/penv/bin"
 
 # Add git default editor
 export VISUAL="nvim"
 export EDITOR="$VISUAL"
 export GIT_EDITOR="$VISUAL"
+
+# opencode
+export PATH=/home/austin/.opencode/bin:$PATH
+export PATH="$PATH:/snap/bin"
